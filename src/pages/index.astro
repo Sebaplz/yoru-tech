@@ -1,5 +1,4 @@
 ---
-import Hero from "../components/hero.astro";
 import Navbar from "../components/navbar.astro";
 import "../styles/global.css";
 ---
@@ -12,10 +11,7 @@ import "../styles/global.css";
     <meta name="generator" content={Astro.generator} />
     <title>Yoru Tech</title>
   </head>
-  <body class="w-full mx-auto min-h-screen">
+  <body class="max-w-7xl mx-auto">
     <Navbar />
-    <main class="px-20">
-      <Hero />
-    </main>
   </body>
 </html>
