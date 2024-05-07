@@ -1,18 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
 
 body {
   font-family: "Bebas Neue", sans-serif;
 }
-#letrasTitulo{
-  -webkit-text-stroke: 2px #BDBDBD;
-  ;
-  color: transparent; 
+#letrasTitulo {
+  -webkit-text-stroke: 2px #bdbdbd;
+  color: transparent;
 }
-#shadoImagenes{
+#shadoImagenes {
   background-color: black;
   box-shadow: 10px 10px 10px #727272;
 }
