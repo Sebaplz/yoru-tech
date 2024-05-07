@@ -2,6 +2,7 @@
 import Hero from "../components/hero.astro";
 import Navbar from "../components/navbar.astro";
 import Portafolio from "../components/portafolio.astro";
+import Servicio from "../components/servicio.astro";
 import "../styles/global.css";
 ---
 
@@ -15,8 +16,9 @@ import "../styles/global.css";
   </head>
   <body class="w-full mx-auto min-h-screen">
     <Navbar />
-    <main class="px-20">
+    <main class="flex flex-col gap-20 px-20">
       <Hero />
+      <Servicio />
       <Portafolio />
     </main>
   </body>
